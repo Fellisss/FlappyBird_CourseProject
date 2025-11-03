@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour
         score++;
         scoreText.text = score.ToString();
 
-        if (score >= 30) // Победа
+        if (score >= 100) // Победа
         {
             WinGame();
         }
